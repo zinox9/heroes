@@ -1,0 +1,76 @@
+.Heroes #hero1{
+    color: rgb(152, 86, 214);
+}
+.Heroes #hero2{
+    color: rgb(231, 83, 57);
+}
+.Heroes #hero3{
+    color: rgb(225, 176, 68);
+}
+.Heroes #hero4{
+    color: rgb(98, 145, 231);
+}
+.Heroes #hero5{
+    color: rgb(194, 84, 209);
+}
+.Heroes #hero6{
+    color: rgb(120, 194, 159);
+}
+
+.no-hero{
+}
+
+.Heroes .names{
+    position: relative;
+    top: -45px;
+    font-family: 'Bubblegum Sans', 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+@media(max-width: 415px){
+    .Heroes img {
+        height: 15rem;
+    }
+
+    .Heroes .names{
+        position: relative;
+        top: -23px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 500px) and (min-width:415px){
+    .Heroes img {
+        height: 15rem;
+    }
+
+    .Heroes .names{
+        position: relative;
+        top: -22px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 700px){
+    .Heroes img {
+        height: 20rem;
+    }
+
+    .Heroes .names{
+        position: relative;
+        top: -28px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1300px){
+    .Heroes img {
+        height: 30rem;
+    }
+
+    .Heroes .names{
+        position: relative;
+        top: -38px;
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,23 @@
+.Footer{
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+     border-top: 2px solid rgba(255,255,255,0.9);
+     padding-top: 20px;
+}
+
+.Footer .from{
+    font-family: 'Baloo', serif;
+}
+
+.Footer .content-by{
+    font-family: 'Bubblegum Sans', 'Courier New', Courier, monospace;
+    width:auto;
+}
+
+.Footer .movie{
+    background-color: red;
+    width: 40%;
+    font-family: 'Big Hero', monospace;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}

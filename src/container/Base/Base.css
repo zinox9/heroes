@@ -1,0 +1,181 @@
+.Base{
+    background-color: rgba(20, 20, 20, 0.753);
+    color: white;
+    border-radius: 0px;
+    box-shadow: 2px 2px 1px 1px rgba(100,100,100, 0.6);
+    padding-top: 10px;
+    border : 1px solid rgba(255,255,255, 0.4);
+}
+
+.Base .data, .Base .major{
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+}
+
+.Base h1{
+    font-family: 'Frijole', serif;
+    font-size: 3.5rem;
+}
+
+.Base img{
+    height: 350px;
+}
+
+.Base .namer{
+    border-radius: 100px;
+    color: rgba(255,255,255, 0.9);
+    background: rgba(33, 33, 33,0.8) ;
+    border: 1px solid rgba(38,38,38,1);
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    width: 80%;
+}
+.Base .delete{
+    width: 10%;
+    background: rgba(255, 44, 16, 1);
+    color: white;
+    border-radius: 2px;
+    border: 2px solid rgba(207, 44, 16, 0.6);
+    font-size: 1.5rem;
+    font-family: 'Baloo', serif;
+}
+
+.Base .add{
+    width: 10%;
+    background: rgba(44, 207, 16, 1);
+    color: white;
+    border-radius: 2px;
+    border: 2px solid rgba(29, 138, 10, 0.6);
+    font-size: 1.5rem;
+    font-family: 'Baloo', serif;
+}
+
+
+.Base .major{
+    font-weight: bolder; 
+}
+.Base .about{
+    font-family: 'Baloo', serif;
+}
+
+.Base .hero1{
+    color: rgb(152, 86, 214);
+    text-shadow: 0 0 20px rgb(106, 13, 194)
+}
+.Base .hero2{
+    color: rgb(231, 83, 57);
+    text-shadow: 0 0 20px rgb(184, 35, 9);
+}
+.Base .hero3{
+    color: rgb(225, 176, 68);
+    text-shadow: 0 0 20px rgb(194, 136, 10);
+}
+.Base .hero4{
+    color: rgb(98, 145, 231);
+    text-shadow: 0 0 20px rgb(30, 99, 226);
+}
+.Base .hero5{
+    color: rgb(210, 72, 228);
+    text-shadow: 0 0 20px rgb(177, 26, 197);
+}
+.Base .hero6{
+    color: rgb(120, 194, 159);
+    text-shadow: 0 0 20px rgb(24, 179, 106);
+}
+
+
+
+@media(max-width: 415px){
+
+    .Base img{
+        height: 170px;
+    }
+
+    .Base h1{
+        padding-top: 10px;
+        font-size: 1.5rem;
+    }
+
+    .Base .major{
+        font-size: 1.4rem;
+    }
+
+    .Base .data{
+        font-size: 1.3rem;
+        /* line-height: 15px; */
+    }
+    .Base .namer ,.Base .delete, .Base .add{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 500px) and (min-width:415px){
+    .Base img{
+        height: 200px;
+    }
+
+    .Base h1{
+        padding-top: 10px;
+        font-size: 2rem;
+    }
+
+    .Base .major{
+        font-size: 1.7rem;
+    }
+
+    .Base .data{
+        font-size: 1.6rem;
+        /* line-height: 18px; */
+    }
+    .Base .namer ,.Base .delete, .Base .add{
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 700px){
+    .Base img{
+        height: 250px;
+    }
+
+    .Base h1{
+        padding-top: 10px;
+        font-size: 2.5rem;
+    }
+
+    .Base .major{
+        font-size: 1.9rem;
+    }
+
+    .Base .data{
+        font-size: 1.8rem;
+        /* line-height: 20px; */
+    }
+    .Base .namer ,.Base .delete, .Base .add{
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1300px){
+    .Base img{
+        height: 300px;
+    }
+
+    .Base h1{
+        padding-top: 10px;
+        font-size: 3rem;
+    }
+
+    .Base .major{
+        font-size: 2rem;
+    }
+
+    .Base .data{
+        font-size: 1.9rem;
+        /* line-height: 26px; */
+    }
+    .Base .namer ,.Base .delete, .Base .add{
+        font-size: 1.7rem;
+    }
+}
+
